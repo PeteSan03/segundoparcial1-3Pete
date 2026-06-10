@@ -10,15 +10,30 @@ body{
     margin: 0;
 
 }
-
 .barra{
-    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.barras{
+    background-color: rgb(24, 86, 133);
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 80px;
+}
+
+.barras2{
+    background-color: rgb(70, 190, 193);
+    border: 1px solid rgb(0, 0, 0);
+    width: 80px;
 }
 
 .form{
     border: 9px solid rgb(24, 86, 133);
     width: 350px;
-    heift: 400px;
+    height: 250px;
     padding: 30px;
     margin: auto;
     margin-top: 20px;
@@ -30,5 +45,13 @@ body{
     padding: 0px;
     margin: 10px;
     margin-left: px;
+    border-radius: 5px;
 }
 
+.caja{
+    border: 1px solid rgb(0, 0, 0);
+    padding : 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 220px;
+    border-radius: 5px;
+}
